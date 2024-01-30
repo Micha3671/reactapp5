@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div className={styles.footermain}>
       <div>
-        <p className={styles.footerText}>Dies ist der Footer-Text.</p>
+        <p className={styles.footerText}>Dies ist der Footer-Text</p>
       </div>
     </div>
   );
