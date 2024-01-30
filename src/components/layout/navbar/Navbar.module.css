@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navRight {
+  display: flex;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: yellow;
+}
+
+.navText {
+  color: white;
+  margin-left: 20px;
+}
+
+.navText {
+  color: white;
+  margin-left: 20px;
+}
