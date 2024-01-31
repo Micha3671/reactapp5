@@ -14,7 +14,7 @@ function App() {
       <Content />
       <Footer />
       <h3>
-        Lets go for a <FaBeer />?
+        Lets go for a <FaBeer />! Or two?
       </h3>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

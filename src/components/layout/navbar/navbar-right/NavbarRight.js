@@ -1,4 +1,4 @@
-import AppData from "../../../../AppData";
+import AppData from "../../../../utils/AppData";
 import StandardBtn from "../../../common/buttons/standard-btn";
 import styles from "./NavbarRight.module.css";
 
