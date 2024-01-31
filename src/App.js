@@ -4,7 +4,6 @@ import Header from "./components/layout/header/Header";
 import Navbar from "./components/layout/navbar/Navbar";
 import Content from "./components/layout/content/Content";
 import Footer from "./components/layout/footer/Footer";
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
 function App() {
   return (
