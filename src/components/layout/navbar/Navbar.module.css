@@ -1,6 +1,6 @@
 .mainContainer {
   padding: 4px;
-  background-color: var(--background-color);
+  background-color: greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: center;

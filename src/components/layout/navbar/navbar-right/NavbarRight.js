@@ -1,5 +1,5 @@
 import AppData from "../../../../utils/AppData";
-import StandardBtn from "../../../common/buttons/standard-btn";
+import StandardBtn from "../../../common/buttons/standard-btn/StandardBtn";
 import styles from "./NavbarRight.module.css";
 
 function NavbarRight() {
