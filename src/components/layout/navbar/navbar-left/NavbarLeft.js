@@ -1,4 +1,4 @@
-import AppData from "../../../../AppData";
+import AppData from "../../../../utils/AppData";
 import styles from "./NavbarLeft.module.css";
 
 function NavbarLeft() {
