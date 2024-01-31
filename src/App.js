@@ -4,6 +4,7 @@ import Header from "./components/layout/header/Header";
 import Navbar from "./components/layout/navbar/Navbar";
 import Content from "./components/layout/content/Content";
 import Footer from "./components/layout/footer/Footer";
+import { FaBeer } from "react-icons/fa";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Header />
       <Content />
       <Footer />
-
+      <h3>
+        Lets go for a <FaBeer />?
+      </h3>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
