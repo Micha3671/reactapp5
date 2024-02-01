@@ -1,6 +1,5 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import "./CommonStyles.css";
 import "./styles/Variables.css";
 import Header from "./components/layout/header/Header";
 import Navbar from "./components/layout/navbar/Navbar";
