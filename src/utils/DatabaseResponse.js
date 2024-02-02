@@ -1,20 +1,8 @@
-// ESM
-import { faker } from "@faker-js/faker";
+const database = [
+  { id: 1, name: "John Doe", age: 30, email: "john@example.com" },
+  { id: 2, name: "Jane Smith", age: 25, email: "jane@example.com" },
+  { id: 3, name: "Bob Johnson", age: 35, email: "bob@example.com" },
+  // Weitere Daten...
+];
 
-const DatabaseResponse = {
-  profile: {
-    followerCount: faker.number.int(10000),
-    followingCount: faker.number.int(100),
-    postCount: faker.number.int(20),
-  },
-  posts: [
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-    { image: faker.image.url(), text: faker.lorem.lines(2) },
-  ],
-};
-
-export default DatabaseResponse;
+export default database;
