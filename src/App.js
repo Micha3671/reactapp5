@@ -6,12 +6,11 @@ import Navbar from "./components/layout/navbar/Navbar";
 import Content from "./components/layout/content/Content";
 import Footer from "./components/layout/footer/Footer";
 import { FaBeer } from "react-icons/fa";
-const faker = require("faker");
 
 function App() {
   return (
     <div className="App">
-      function generateRandomName() return faker.name.findName();
+      function MyComponent()
       <Navbar />
       <h1>Under construction</h1>
       <Header />
