@@ -6,16 +6,6 @@ import Navbar from "./components/layout/navbar/Navbar";
 import Content from "./components/layout/content/Content";
 import Footer from "./components/layout/footer/Footer";
 import { FaBeer } from "react-icons/fa";
-import database from "./utils/DatabaseResponse.js";
-
-// Zugriff auf die Datenbank
-console.log(database);
-
-const randomIndex = Math.floor(Math.random() * database.length);
-const randomUser = database[randomIndex];
-
-const randomUserContainer = document.getElementById("randomUserContainer");
-randomUserContainer.textContent = `Name: ${randomUser.name}, Alter: ${randomUser.age}, E-Mail: ${randomUser.email}`;
 
 function App() {
   return (
