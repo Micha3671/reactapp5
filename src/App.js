@@ -7,6 +7,7 @@ import Header from "./components/layout/header/Header";
 import Content from "./components/layout/content/Content";
 import Footer from "./components/layout/footer/Footer";
 import { FaBeer } from "react-icons/fa";
+import FollowBtn from "./../common/followBtn/FollowBtn";
 
 import "./App.css";
 import "./styles/Variables.css";
