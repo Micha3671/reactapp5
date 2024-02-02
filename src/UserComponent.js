@@ -1,3 +1,5 @@
+import FollowBtn from "./components/followBtn/FollowBtn";
+
 function UserComponent(props) {
   return (
     <div>
@@ -5,6 +7,7 @@ function UserComponent(props) {
       <p>Name: {props.user.name}</p>
       <p>Age: {props.user.age}</p>
       <p>Email: {props.user.email}</p>
+      <FollowBtn />
     </div>
   );
 }
